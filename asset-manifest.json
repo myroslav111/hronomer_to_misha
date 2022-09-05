@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/hronomer_to_misha/static/css/main.7acaea2f.css",
-    "main.js": "/hronomer_to_misha/static/js/main.173c2632.js",
+    "main.js": "/hronomer_to_misha/static/js/main.c195a9c9.js",
     "index.html": "/hronomer_to_misha/index.html",
     "main.7acaea2f.css.map": "/hronomer_to_misha/static/css/main.7acaea2f.css.map",
-    "main.173c2632.js.map": "/hronomer_to_misha/static/js/main.173c2632.js.map"
+    "main.c195a9c9.js.map": "/hronomer_to_misha/static/js/main.c195a9c9.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.173c2632.js"
+    "static/js/main.c195a9c9.js"
   ]
 }

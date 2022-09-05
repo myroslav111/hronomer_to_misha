@@ -200,6 +200,7 @@ function Form() {
           padding: '5px',
         }}
       >
+        Hello! МИШАНЯ
         <TextareaAutosize
           aria-label="empty textarea"
           placeholder="Вставьте ваш текст"
@@ -242,7 +243,6 @@ function Form() {
           Знаков: <span id="cnt">{signs}</span> / Слов:
           <span id="wrd">{words}</span>
         </p>
-
         <Stack direction="row" spacing={2}>
           <Button onClick={reset} variant="outlined" startIcon={<DeleteIcon />}>
             Delete

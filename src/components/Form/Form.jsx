@@ -10,6 +10,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import SendIcon from '@mui/icons-material/Send';
 import Stack from '@mui/material/Stack';
 import { useState } from 'react';
+
 import './Form.css';
 
 function Form() {
@@ -202,11 +203,14 @@ function Form() {
       >
         Hello! МИШАНЯ
         <TextareaAutosize
+          maxRows={24}
           aria-label="empty textarea"
           placeholder="Вставьте ваш текст"
-          style={{ width: 200, height: 200 }}
+          style={{ width: '90%' }}
+          //   sx={{ width: '90vw', height: 200 }}
           value={text}
           onChange={e => setText(e.target.value)}
+          //   sx={{ overflowY: 'scroll' }}
         />
         <div className="help-block" style={{ textAlign: 'center' }}>
           Удалите из текста все лишнее: комментарии, заметки и так далее.

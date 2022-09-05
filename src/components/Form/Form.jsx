@@ -205,7 +205,7 @@ function Form() {
         <TextareaAutosize
           maxRows={24}
           aria-label="empty textarea"
-          placeholder="Вставьте ваш текст"
+          placeholder="Вставьте ваш текст уважаемый Михаил"
           style={{ width: '90%' }}
           //   sx={{ width: '90vw', height: 200 }}
           value={text}

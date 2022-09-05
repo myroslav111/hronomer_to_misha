@@ -8,8 +8,6 @@ function Hronometr() {
       <span
         style={{
           position: 'absolute',
-          bottom: 5,
-          right: 5,
           fontSize: '10px',
           color: 'grey',
         }}
